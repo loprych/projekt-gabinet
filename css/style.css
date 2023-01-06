@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	margin: 0px;
+	font-size: 36px;
+	padding: 0;
+	background-color: #7b8ca7;
+	background-image: linear-gradient(315deg, #b7c7e0 0%, #dbdce4 74%);
+}
+
+main {
+	width: 100%;
+	background-color: #7b8ca7;
+	background-image: linear-gradient(315deg, #b7c7e0 0%, #dbdce4 74%);
+}
+
+div.text p {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	
+}
+
+img.logo {
+	height: auto;
+	width: 150px;
+	align-items: left;
+	float: left;
+}
+/* img.dent {
+	width: 100%;
+} */
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 3rem;
+	background: #b5bfcf;
+	font-family: 'Montserrat', sans-serif;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.navbar a {
+	font-size: 24px;
+	margin: 0 1rem;
+	text-decoration: none;
+	padding: 1rem 0.5rem;
+	box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0, 25);
+}
+
+img.logowanie {
+	width: 50px;
+}
+
+.dropdown {
+	position: relative;
+}
+.dropdown ul {
+	width: 12%;
+	padding: 0;
+	position: fixed;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background: #87b1ce;
+	list-style-type: none;
+	margin-top: 10px;
+	border-radius: 7px;
+	display: none;
+}
+
+.dropdown ul li {
+	padding: 0.5rem;
+}
+.dropdown ul li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.dropdown ul li:hover {
+	background: #6390c4;
+	border-radius: 7px;
+}
+.dropdown a:focus + ul,
+.dropdown a:hover + ul,
+.dropdown ul:hover {
+	display: block;
+	
+
+}
+
+.dropdownlogin {
+	position: relative;
+}
+.dropdownlogin ul {
+	width: 20%;
+	padding: 0;
+	position: fixed;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background: #87b1ce;
+	list-style-type: none;
+	margin-top: 10px;
+	border-radius: 7px;
+	display: none;
+}
+
+.dropdownlogin ul li {
+	padding: 0.5rem;
+	
+}
+.dropdownlogin ul li a {
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.dropdownlogin ul li:hover {
+	background: #6390c4;
+	border-radius: 7px;
+}
+.dropdownlogin a:focus + ul,
+.dropdownlogin a:hover + ul,
+.dropdownlogin ul:hover {
+	display: block;
+}
